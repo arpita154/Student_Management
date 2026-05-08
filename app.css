@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #eef2f7;
+  color: #1c2230;
+}
+
+.app-container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+header p {
+  margin: 8px 0 0;
+  color: #555;
+}
+
+.content {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.student-form,
+.student-list {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+.student-form h2,
+.student-list h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.student-form label {
+  display: block;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+.student-form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.student-form button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background: #1d4ed8;
+}
+
+.student-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.student-list li:last-child {
+  border-bottom: none;
+}
+
+.student-info {
+  display: grid;
+  gap: 4px;
+}
+
+.student-info span {
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.student-list button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  background: #ef4444;
+  color: #fff;
+  cursor: pointer;
+}
+
+.student-list button:hover {
+  background: #dc2626;
+}
